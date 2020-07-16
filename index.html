@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" class="fit">
+<head>
+    <meta charset="UTF-8">
+    <title>Creator各个版本的DEMO</title>
+    <link rel="stylesheet" href="lib/com.css">
+    <script src="lib/vue.js"></script>
+</head>
+<body>
+<div id="app" class="fit">
+    <span>Cocos Creator版本DEMO</span>
+    <a href="./2.4.0/build/web-mobile/index.html">V2.4.0</a>
+
+    <div v-for="(version,index) in versions" v-show="false">
+        {{version}}
+    </div>
+</div>
+</body>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            versions: [
+                '2.4.0'
+            ]
+
+        },
+        methods: {}
+    });
+</script>
+</html>
