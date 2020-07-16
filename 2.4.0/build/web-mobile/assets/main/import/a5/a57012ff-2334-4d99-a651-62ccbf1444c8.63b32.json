@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sheep_run_1",
+    "texture": "16791763c",
+    "rect": [
+      2,
+      328,
+      176,
+      115
+    ],
+    "offset": [
+      1,
+      2
+    ],
+    "originalSize": [
+      228,
+      159
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

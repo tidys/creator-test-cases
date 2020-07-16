@@ -1,0 +1,41 @@
+[
+  {
+    "__type__": "cc.Material",
+    "_name": "transparent",
+    "_effectAsset": {
+      "__uuid__": "abwstieFJFJakN1HRIe4jy"
+    },
+    "_techniqueData": {
+      "0": {
+        "props": {
+          "diffuseColor": {
+            "__type__": "cc.Color",
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 28
+          }
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.Material",
+    "_name": "unselect",
+    "_effectAsset": {
+      "__uuid__": "abwstieFJFJakN1HRIe4jy"
+    },
+    "_techniqueData": {
+      "0": {
+        "props": {
+          "diffuseColor": {
+            "__type__": "cc.Color",
+            "r": 127,
+            "g": 127,
+            "b": 127
+          }
+        }
+      }
+    }
+  }
+]

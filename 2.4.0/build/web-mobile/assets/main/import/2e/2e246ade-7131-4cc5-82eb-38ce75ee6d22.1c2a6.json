@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sheep_jump_4",
+    "texture": "16791763c",
+    "rect": [
+      149,
+      828,
+      147,
+      138
+    ],
+    "offset": [
+      -11.5,
+      -2.5
+    ],
+    "originalSize": [
+      228,
+      159
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
