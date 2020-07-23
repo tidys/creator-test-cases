@@ -1,0 +1,766 @@
+[
+  [
+    {
+      "__type__": "cc.SceneAsset",
+      "_name": "ReplaceSlotDisplay",
+      "scene": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": null
+    },
+    {
+      "__type__": "cc.Scene",
+      "_name": "New Node",
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ],
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "autoReleaseAssets": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Canvas",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        },
+        {
+          "__id__": 6
+        },
+        {
+          "__id__": 8
+        },
+        {
+          "__id__": 11
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Canvas",
+          "node": {
+            "__id__": 2
+          }
+        },
+        {
+          "__type__": "972e5Ii4p5AYa4e91UP427+",
+          "node": {
+            "__id__": 2
+          },
+          "armatureDisplay": {
+            "__id__": 5
+          },
+          "replaceArmatureDisplay": {
+            "__id__": 7
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 640
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          480,
+          320,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "_id": "75cID2K9NIfr3bmw5pXTWC"
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Main Camera",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Camera",
+          "node": {
+            "__id__": 3
+          },
+          "_clearFlags": 7,
+          "_depth": -1,
+          "_nearClip": 0.1
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "dbNode",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__id__": 5
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          -58.68000030517578,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.5,
+          0.5,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "dragonBones.ArmatureDisplay",
+      "node": {
+        "__id__": 4
+      },
+      "_materials": [
+        {
+          "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+        }
+      ],
+      "_armatureName": "mecha_1004d",
+      "_animationName": "idle",
+      "_preCacheMode": 0,
+      "_armatureKey": "ca3fe7ab-fb77-46e5-860d-f88961b46f8b#dfc400e2-02fe-44da-befe-6fd38be4dff9",
+      "_N$dragonAsset": {
+        "__uuid__": "caP+er+3dG5YYN+IlhtG+L"
+      },
+      "_N$dragonAtlasAsset": {
+        "__uuid__": "dfxADiAv5E2r7+b9OL5N/5"
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "replaceDBNode",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__id__": 7
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          653.2979736328125,
+          160.0570068359375,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "dragonBones.ArmatureDisplay",
+      "node": {
+        "__id__": 6
+      },
+      "_materials": [
+        {
+          "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+        }
+      ],
+      "_armatureName": "weapon",
+      "_animationName": "newAnimation",
+      "_preCacheMode": 0,
+      "_armatureKey": "2f792230-09fa-4431-986b-bdf9b984bdaf#af000d35-ee13-4bf9-a5e5-fac52bc4d6e1",
+      "_N$dragonAsset": {
+        "__uuid__": "2feSIwCfpEMZhrvfm5hL2v"
+      },
+      "_N$dragonAtlasAsset": {
+        "__uuid__": "afAA017hNL+aXl+sUrxNbh"
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "New Button",
+      "_parent": {
+        "__id__": 2
+      },
+      "_children": [
+        {
+          "__id__": 9
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Button",
+          "node": {
+            "__id__": 8
+          },
+          "clickEvents": [
+            {
+              "__type__": "cc.ClickEvent",
+              "target": {
+                "__id__": 2
+              },
+              "_componentId": "972e5Ii4p5AYa4e91UP427+",
+              "handler": "left"
+            }
+          ],
+          "_N$transition": 2,
+          "transition": 2,
+          "_N$normalColor": {
+            "__type__": "cc.Color",
+            "r": 230,
+            "g": 230,
+            "b": 230
+          },
+          "_N$pressedColor": {
+            "__type__": "cc.Color",
+            "r": 200,
+            "g": 200,
+            "b": 200
+          },
+          "pressedColor": {
+            "__type__": "cc.Color",
+            "r": 200,
+            "g": 200,
+            "b": 200
+          },
+          "_N$disabledColor": {
+            "__type__": "cc.Color",
+            "r": 120,
+            "g": 120,
+            "b": 120,
+            "a": 200
+          },
+          "_N$normalSprite": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "_N$pressedSprite": {
+            "__uuid__": "e97GVMl6JHh5Ml5qEDdSGa"
+          },
+          "pressedSprite": {
+            "__uuid__": "e97GVMl6JHh5Ml5qEDdSGa"
+          },
+          "_N$hoverSprite": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "hoverSprite": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "_N$disabledSprite": {
+            "__uuid__": "29FYIk+N1GYaeWH/q1NxQO"
+          },
+          "_N$target": {
+            "__id__": 9
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 100,
+        "height": 40
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          -230.39999389648438,
+          -176.63999938964844,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Background",
+      "_parent": {
+        "__id__": 8
+      },
+      "_children": [
+        {
+          "__id__": 10
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 9
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 9
+          },
+          "alignMode": 0,
+          "_alignFlags": 45,
+          "_originalWidth": 100,
+          "_originalHeight": 40
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 230,
+        "g": 230,
+        "b": 230
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 100,
+        "height": 40
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Label",
+      "_parent": {
+        "__id__": 9
+      },
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 10
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "left",
+          "_N$string": "left",
+          "_fontSize": 20,
+          "_enableWrapText": false,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1,
+          "_N$overflow": 1
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 100,
+        "height": 40
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "New Button",
+      "_parent": {
+        "__id__": 2
+      },
+      "_children": [
+        {
+          "__id__": 12
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Button",
+          "node": {
+            "__id__": 11
+          },
+          "clickEvents": [
+            {
+              "__type__": "cc.ClickEvent",
+              "target": {
+                "__id__": 2
+              },
+              "_componentId": "972e5Ii4p5AYa4e91UP427+",
+              "handler": "right"
+            }
+          ],
+          "_N$transition": 2,
+          "transition": 2,
+          "_N$normalColor": {
+            "__type__": "cc.Color",
+            "r": 230,
+            "g": 230,
+            "b": 230
+          },
+          "_N$pressedColor": {
+            "__type__": "cc.Color",
+            "r": 200,
+            "g": 200,
+            "b": 200
+          },
+          "pressedColor": {
+            "__type__": "cc.Color",
+            "r": 200,
+            "g": 200,
+            "b": 200
+          },
+          "_N$disabledColor": {
+            "__type__": "cc.Color",
+            "r": 120,
+            "g": 120,
+            "b": 120,
+            "a": 200
+          },
+          "_N$normalSprite": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "_N$pressedSprite": {
+            "__uuid__": "e97GVMl6JHh5Ml5qEDdSGa"
+          },
+          "pressedSprite": {
+            "__uuid__": "e97GVMl6JHh5Ml5qEDdSGa"
+          },
+          "_N$hoverSprite": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "hoverSprite": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "_N$disabledSprite": {
+            "__uuid__": "29FYIk+N1GYaeWH/q1NxQO"
+          },
+          "_N$target": {
+            "__id__": 12
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 100,
+        "height": 40
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          240.63999938964844,
+          -176.63999938964844,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Background",
+      "_parent": {
+        "__id__": 11
+      },
+      "_children": [
+        {
+          "__id__": 13
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 12
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "f0BIwQ8D5Ml7nTNQbh1YlS"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 12
+          },
+          "alignMode": 0,
+          "_alignFlags": 45,
+          "_originalWidth": 100,
+          "_originalHeight": 40
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 230,
+        "g": 230,
+        "b": 230
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 100,
+        "height": 40
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Label",
+      "_parent": {
+        "__id__": 12
+      },
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 13
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "right",
+          "_N$string": "right",
+          "_fontSize": 20,
+          "_enableWrapText": false,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1,
+          "_N$overflow": 1
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 100,
+        "height": 40
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_btn_disabled",
+      "texture": "71VhFCTINJM6/Ky3oX9nBT",
+      "rect": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        40
+      ],
+      "capInsets": [
+        12,
+        12,
+        12,
+        12
+      ]
+    }
+  },
+  {
+    "__type__": "dragonBones.DragonBonesAsset",
+    "_name": "weapon_1004_show_ske",
+    "_dragonBonesJson": "{\"frameRate\":25,\"armature\":[{\"animation\":[{\"ffd\":[],\"frame\":[],\"bone\":[{\"rotateFrame\":[],\"scaleFrame\":[],\"translateFrame\":[],\"name\":\"root\"},{\"rotateFrame\":[{\"duration\":1},{\"duration\":1},{\"duration\":1},{\"duration\":1},{\"duration\":1},{\"duration\":0}],\"scaleFrame\":[{\"duration\":1},{\"duration\":1},{\"duration\":1},{\"duration\":1},{\"duration\":1},{\"duration\":0}],\"translateFrame\":[{\"y\":0.2759,\"duration\":1,\"x\":-5.0241},{\"y\":-0.2458,\"duration\":1,\"x\":-0.3253},{\"y\":1.511,\"duration\":1,\"x\":0.6867},{\"y\":-1.0205,\"duration\":1,\"x\":-3.5783},{\"y\":-4.2802,\"duration\":1},{\"y\":-33.1021,\"duration\":0,\"x\":-11.9744}],\"name\":\"weapon_r\"}],\"playTimes\":0,\"duration\":5,\"slot\":[{\"colorFrame\":[{\"duration\":1},{\"duration\":1},{\"duration\":1},{\"duration\":1},{\"duration\":1},{\"duration\":0}],\"name\":\"weapon_r\",\"displayFrame\":[{\"duration\":1},{\"value\":1,\"duration\":1},{\"value\":2,\"duration\":1},{\"value\":3,\"duration\":1},{\"value\":4,\"duration\":1},{\"value\":-1,\"duration\":0}]}],\"name\":\"newAnimation\"}],\"slot\":[{\"color\":{},\"displayIndex\":3,\"name\":\"weapon_r\",\"parent\":\"weapon_r\"}],\"skin\":[{\"name\":\"\",\"slot\":[{\"display\":[{\"path\":\"weapon_1004c_r\",\"type\":\"image\",\"name\":\"weapon_1004c_r\",\"transform\":{\"y\":-27.3462,\"x\":172.7167}},{\"path\":\"weapon_1004b_r\",\"type\":\"image\",\"name\":\"weapon_1004b_r\",\"transform\":{\"y\":-28.072,\"x\":160.8761}},{\"path\":\"weapon_1004e_r\",\"type\":\"image\",\"name\":\"weapon_1004e_r\",\"transform\":{\"y\":-20,\"x\":198}},{\"edges\":[0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,0],\"uvs\":[1,1,0.97814,0.74651,0.95146,0.52209,0.90303,0.28527,0.83464,0.1124,0.77455,0.00853,0.69608,-0.00039,0.69428,0.12946,0.65942,0.21628,0.60583,0.11822,0.28217,0.21047,0.20213,-0.00039,0,-0.00039,0,1,0.40056,1,0.38722,0.82791,0.60258,0.82791,0.67108,0.74109,0.70437,0.89651,0.78105,0.91434,0.85448,0.93721,0.92635,0.97209],\"userEdges\":[],\"type\":\"mesh\",\"vertices\":[432.95,94.9,444.75,25.05,402.65,-44.6,379.05,-84.8,336.9,-126.5,300.75,-150,252.25,-157.2,271.25,-118.35,253.75,-92.7,217.4,-107.95,83.7,-59.55,48,-86.75,-42.15,-86.75,-42.15,42.3,136.5,42.3,130.55,20.1,221.3,28.85,263.35,22.95,268.1,81.8,331.95,61.55,357.6,61.65,383.35,66.95],\"transform\":{},\"path\":\"weapon_1004d_r\",\"width\":446,\"height\":129,\"name\":\"weapon_1004d_r\",\"triangles\":[1,21,0,2,21,1,20,21,2,3,20,2,19,20,3,4,19,3,5,7,4,17,19,4,7,17,4,8,17,7,17,18,19,6,7,5,8,16,17,9,16,8,15,16,9,10,15,9,15,13,14,10,13,15,11,13,10,12,13,11]},{\"path\":\"weapon_1004_r\",\"type\":\"image\",\"name\":\"weapon_1004_r\",\"transform\":{\"y\":-21.8616,\"x\":121.7152}},{\"path\":\"weapon_1004s_r\",\"type\":\"image\",\"name\":\"weapon_1004s_r\",\"transform\":{\"y\":-28.07,\"x\":160.88}}],\"name\":\"weapon_r\"}]}],\"bone\":[{\"name\":\"root\",\"transform\":{}},{\"transform\":{},\"name\":\"weapon_r\",\"parent\":\"root\"}],\"frameRate\":24,\"defaultActions\":[{\"gotoAndPlay\":\"newAnimation\"}],\"ik\":[],\"type\":\"Armature\",\"name\":\"weapon\",\"aabb\":{\"width\":446,\"y\":-64.5,\"height\":129,\"x\":-223}},{\"animation\":[{\"ffd\":[],\"frame\":[],\"bone\":[{\"rotateFrame\":[],\"scaleFrame\":[],\"translateFrame\":[],\"name\":\"root\"}],\"playTimes\":0,\"duration\":0,\"slot\":[{\"colorFrame\":[],\"name\":\"weapon_1004e_r\",\"displayFrame\":[]}],\"name\":\"newAnimation\"}],\"slot\":[{\"color\":{},\"name\":\"weapon_1004e_r\",\"parent\":\"root\"}],\"skin\":[{\"name\":\"\",\"slot\":[{\"display\":[{\"path\":\"weapon_1004e_r\",\"type\":\"image\",\"name\":\"weapon_1004e_r\",\"transform\":{\"y\":5,\"x\":75}}],\"name\":\"weapon_1004e_r\"}]}],\"bone\":[{\"name\":\"root\",\"transform\":{}}],\"frameRate\":24,\"defaultActions\":[{\"gotoAndPlay\":\"newAnimation\"}],\"ik\":[],\"type\":\"Armature\",\"name\":\"weapon_1004s_r\",\"aabb\":{\"width\":542,\"y\":-96.5,\"height\":203,\"x\":-196}}],\"isGlobal\":0,\"name\":\"weapon_1004_show\",\"version\":\"5.5\"}"
+  },
+  {
+    "__type__": "dragonBones.DragonBonesAsset",
+    "_name": "mecha_1004d_show_ske",
+    "_dragonBonesJson": "{\"frameRate\":25,\"name\":\"mecha_1004d_show\",\"version\":\"5.5\",\"compatibleVersion\":\"5.5\",\"armature\":[{\"type\":\"Armature\",\"frameRate\":25,\"name\":\"mecha_1004d\",\"aabb\":{\"x\":-487.86,\"y\":-487.89,\"width\":756.87,\"height\":576.61},\"bone\":[{\"name\":\"root\"},{\"inheritScale\":false,\"length\":73,\"name\":\"shouder_r\",\"parent\":\"root\",\"transform\":{\"x\":-93.7,\"y\":-323,\"skX\":85.5769,\"skY\":85.5754,\"scX\":0.9988,\"scY\":0.9996}},{\"inheritScale\":false,\"length\":86,\"name\":\"shouder_l\",\"parent\":\"root\",\"transform\":{\"x\":109.7,\"y\":-370.15,\"skX\":67.9555,\"skY\":67.9569,\"scX\":0.997,\"scY\":0.9976}},{\"inheritScale\":false,\"length\":48,\"name\":\"pelvis\",\"parent\":\"root\",\"transform\":{\"y\":-177.9,\"skX\":-91.1134,\"skY\":-91.1215,\"scX\":0.9987,\"scY\":0.9996}},{\"inheritScale\":false,\"length\":86,\"name\":\"forearm_r\",\"parent\":\"shouder_r\",\"transform\":{\"x\":73.91,\"y\":0.03,\"skX\":20.6849,\"skY\":20.6859,\"scX\":0.998,\"scY\":0.9982}},{\"inheritScale\":false,\"length\":48,\"name\":\"chest\",\"parent\":\"pelvis\",\"transform\":{\"x\":48.53,\"y\":0.03,\"skX\":177.7225,\"skY\":177.7167,\"scX\":0.9989,\"scY\":0.9998}},{\"inheritScale\":false,\"length\":100,\"name\":\"forearm_l\",\"parent\":\"shouder_l\",\"transform\":{\"x\":86.16,\"y\":-0.02,\"skX\":11.4743,\"skY\":11.4742,\"scX\":0.9991,\"scY\":0.9989}},{\"inheritScale\":false,\"length\":41,\"name\":\"thigh_l\",\"parent\":\"chest\",\"transform\":{\"x\":48.09,\"y\":-51.64,\"skX\":2.2965,\"skY\":2.054,\"scX\":0.9728,\"scY\":0.9995}},{\"inheritScale\":false,\"name\":\"hand_r\",\"parent\":\"forearm_r\",\"transform\":{\"x\":86.03,\"y\":0.02,\"skX\":-17.0115,\"skY\":-17.0123,\"scX\":0.9962}},{\"inheritScale\":false,\"name\":\"hand_l\",\"parent\":\"forearm_l\",\"transform\":{\"x\":100.92,\"y\":-0.03,\"skX\":-1.4428,\"skY\":-1.4428,\"scX\":0.9984,\"scY\":0.9987}},{\"inheritScale\":false,\"length\":64,\"name\":\"thigh_r\",\"parent\":\"chest\",\"transform\":{\"x\":48.83,\"y\":51.55,\"skX\":47.3349,\"skY\":47.3381,\"scX\":0.998,\"scY\":0.9967}},{\"inheritScale\":false,\"length\":129,\"name\":\"calf_l\",\"parent\":\"thigh_l\",\"transform\":{\"x\":41.36,\"y\":-0.04,\"skX\":-21.8135,\"skY\":-21.8126,\"scX\":0.9984,\"scY\":0.9976}},{\"inheritScale\":false,\"length\":100,\"name\":\"calf_r\",\"parent\":\"thigh_r\",\"transform\":{\"x\":64.7,\"y\":0.05,\"skX\":-54.2764,\"skY\":-54.2755,\"scX\":0.9994,\"scY\":0.999}},{\"inheritScale\":false,\"name\":\"weapon_hand_l\",\"parent\":\"hand_l\",\"transform\":{\"x\":31.5347,\"y\":10.1248,\"skX\":77.9701,\"skY\":77.9701,\"scX\":0.9976,\"scY\":0.9988}},{\"inheritScale\":false,\"name\":\"weapon_hand_r\",\"parent\":\"hand_r\",\"transform\":{\"x\":18.0534,\"y\":-6.8328,\"skX\":71.7239,\"skY\":71.7239,\"scX\":0.998,\"scY\":0.999}},{\"inheritScale\":false,\"name\":\"foot_l\",\"parent\":\"calf_l\",\"transform\":{\"x\":129.47,\"y\":-0.01,\"skX\":23.1618,\"skY\":23.1618,\"scX\":0.9997}},{\"inheritScale\":false,\"name\":\"foot_r\",\"parent\":\"calf_r\",\"transform\":{\"x\":100.6,\"y\":0.04,\"skX\":10.3405,\"skY\":10.3405,\"scX\":0.9997}}],\"slot\":[{\"name\":\"shouder_r\",\"parent\":\"shouder_r\"},{\"name\":\"forearm_r\",\"parent\":\"forearm_r\"},{\"name\":\"hand_r\",\"parent\":\"hand_r\"},{\"name\":\"weapon_hand_r\",\"parent\":\"weapon_hand_r\"},{\"name\":\"thigh_r\",\"parent\":\"thigh_r\"},{\"name\":\"calf_r\",\"parent\":\"calf_r\"},{\"name\":\"foot_r\",\"parent\":\"foot_r\"},{\"name\":\"chest\",\"parent\":\"chest\"},{\"name\":\"pelvis\",\"parent\":\"pelvis\"},{\"name\":\"thigh_l\",\"parent\":\"thigh_l\"},{\"name\":\"calf_l\",\"parent\":\"calf_l\"},{\"name\":\"foot_l\",\"parent\":\"foot_l\"},{\"displayIndex\":4,\"name\":\"weapon_hand_l\",\"parent\":\"weapon_hand_l\"},{\"name\":\"hand_l\",\"parent\":\"hand_l\"},{\"name\":\"shouder_l\",\"parent\":\"shouder_l\"},{\"name\":\"forearm_l\",\"parent\":\"forearm_l\"},{\"name\":\"logo\",\"parent\":\"pelvis\"}],\"skin\":[{\"name\":\"\",\"slot\":[{\"name\":\"foot_r\",\"display\":[{\"name\":\"mecha_1004d_folder/foot_r\",\"transform\":{\"x\":2.95,\"y\":-2.95}}]},{\"name\":\"thigh_r\",\"display\":[{\"name\":\"mecha_1004d_folder/thigh_r\",\"transform\":{\"x\":16.9,\"y\":-3.65,\"skX\":0.94,\"skY\":0.94}}]},{\"name\":\"forearm_r\",\"display\":[{\"name\":\"mecha_1004d_folder/forearm_r\",\"transform\":{\"x\":39.8,\"y\":-8.25,\"skX\":-0.49,\"skY\":-0.49}}]},{\"name\":\"forearm_l\",\"display\":[{\"name\":\"mecha_1004d_folder/forearm_l\",\"transform\":{\"x\":47.25,\"y\":-14.15,\"skX\":1.06,\"skY\":1.06}}]},{\"name\":\"weapon_hand_l\",\"display\":[{\"name\":\"weapon_1004_l\",\"transform\":{\"x\":91.22,\"y\":-30.21}},{\"name\":\"weapon_1004b_l\",\"transform\":{\"x\":122.94,\"y\":-44.14}},{\"name\":\"weapon_1004c_l\",\"transform\":{\"x\":130.95,\"y\":-56.95}},{\"name\":\"weapon_1004d_l\",\"transform\":{\"x\":134.67,\"y\":-55.25}},{\"name\":\"weapon_1004e_l\",\"transform\":{\"x\":155.62,\"y\":-59.2}}]},{\"name\":\"foot_l\",\"display\":[{\"name\":\"mecha_1004d_folder/foot_l\",\"transform\":{\"x\":3.95,\"y\":0.95}}]},{\"name\":\"thigh_l\",\"display\":[{\"name\":\"mecha_1004d_folder/thigh_l\",\"transform\":{\"x\":9.05,\"y\":-1.25,\"skX\":4.48,\"skY\":4.48}}]},{\"name\":\"chest\",\"display\":[{\"name\":\"mecha_1004d_folder/chest\",\"transform\":{\"x\":-95.5,\"y\":-13.55,\"skX\":-177.85,\"skY\":-177.85}}]},{\"name\":\"calf_r\",\"display\":[{\"name\":\"mecha_1004d_folder/calf_r\",\"transform\":{\"x\":52.15,\"y\":-4.85,\"skX\":2.34,\"skY\":2.34}}]},{\"name\":\"shouder_r\",\"display\":[{\"name\":\"mecha_1004d_folder/shouder_r\",\"transform\":{\"x\":6.9,\"y\":-1.9,\"skX\":0.42,\"skY\":0.42}}]},{\"name\":\"weapon_hand_r\",\"display\":[{\"name\":\"weapon_1004_r\",\"transform\":{\"x\":119.74,\"y\":-23.1}}]},{\"name\":\"hand_r\",\"display\":[{\"name\":\"mecha_1004d_folder/hand_r\",\"transform\":{\"x\":20.9,\"y\":-1.95}}]},{\"name\":\"logo\",\"display\":[{\"name\":\"logo\",\"transform\":{\"x\":95.09,\"y\":-328.7,\"skX\":91.12,\"skY\":91.12,\"scX\":1.0004,\"scY\":1.0013}}]},{\"name\":\"shouder_l\",\"display\":[{\"name\":\"mecha_1004d_folder/shouder_l\",\"transform\":{\"x\":8.9,\"y\":-2.15,\"skX\":-1.25,\"skY\":-1.25}}]},{\"name\":\"hand_l\",\"display\":[{\"name\":\"mecha_1004d_folder/hand_l\",\"transform\":{\"x\":22,\"y\":11}}]},{\"name\":\"calf_l\",\"display\":[{\"name\":\"mecha_1004d_folder/calf_l\",\"transform\":{\"x\":62.9,\"y\":0.1,\"skX\":0.12,\"skY\":0.12}}]},{\"name\":\"pelvis\",\"display\":[{\"name\":\"mecha_1004d_folder/pelvis\",\"transform\":{\"x\":-15.05,\"y\":0.8,\"skX\":4.37,\"skY\":4.37}}]}]}],\"animation\":[{\"duration\":80,\"playTimes\":0,\"name\":\"idle\",\"bone\":[{\"name\":\"shouder_r\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":0.85,\"y\":-5.6},{\"duration\":5,\"tweenEasing\":0,\"x\":0.8,\"y\":-5.6},{\"duration\":35,\"tweenEasing\":0,\"x\":0.75,\"y\":-5.4},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":10,\"tweenEasing\":0,\"rotate\":-0.25},{\"duration\":35,\"tweenEasing\":0,\"rotate\":-0.25},{\"duration\":0}]},{\"name\":\"forearm_r\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":0.01,\"y\":-0.19},{\"duration\":5,\"tweenEasing\":0,\"y\":-0.19},{\"duration\":35,\"tweenEasing\":0,\"x\":0.03,\"y\":-0.21},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"rotate\":1.26},{\"duration\":5,\"tweenEasing\":0,\"rotate\":1.26},{\"duration\":35,\"tweenEasing\":0,\"rotate\":1.25},{\"duration\":0}]},{\"name\":\"hand_r\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.28,\"y\":0.19},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.27,\"y\":0.14},{\"duration\":35,\"tweenEasing\":0,\"x\":-0.27,\"y\":-0.03},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"rotate\":-0.25},{\"duration\":5,\"tweenEasing\":0,\"rotate\":-0.5},{\"duration\":35,\"tweenEasing\":0,\"rotate\":-0.5},{\"duration\":0}]},{\"name\":\"weapon_hand_r\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":0.02,\"y\":0.03},{\"duration\":5,\"tweenEasing\":0,\"x\":0.02,\"y\":0.03},{\"duration\":35,\"tweenEasing\":0,\"x\":0.03,\"y\":0.03},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"rotate\":0.5},{\"duration\":5,\"tweenEasing\":0,\"rotate\":0.75},{\"duration\":35,\"tweenEasing\":0,\"rotate\":0.5},{\"duration\":0}]},{\"name\":\"thigh_r\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.8,\"y\":-1.53},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.66,\"y\":-1.8},{\"duration\":35,\"tweenEasing\":0,\"x\":-0.8,\"y\":-1.53},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"rotate\":-4.01},{\"duration\":5,\"tweenEasing\":0,\"rotate\":-4.26},{\"duration\":35,\"tweenEasing\":0,\"rotate\":-4.01},{\"duration\":0}],\"scaleFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":10,\"tweenEasing\":0,\"x\":1.02},{\"duration\":35,\"tweenEasing\":0,\"x\":1.02},{\"duration\":0}]},{\"name\":\"calf_r\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.61,\"y\":0.41},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.6,\"y\":0.26},{\"duration\":35,\"tweenEasing\":0,\"x\":-0.61,\"y\":0.41},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":10,\"tweenEasing\":0,\"rotate\":5.25},{\"duration\":35,\"tweenEasing\":0,\"rotate\":5.25},{\"duration\":0}],\"scaleFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":1.01},{\"duration\":5,\"tweenEasing\":0,\"x\":1.02},{\"duration\":35,\"tweenEasing\":0,\"x\":1.01},{\"duration\":0}]},{\"name\":\"foot_r\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":0.5,\"y\":0.47},{\"duration\":5,\"tweenEasing\":0,\"x\":0.52,\"y\":0.57},{\"duration\":35,\"tweenEasing\":0,\"x\":0.5,\"y\":0.47},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":10,\"tweenEasing\":0,\"rotate\":-1.79},{\"duration\":35,\"tweenEasing\":0,\"rotate\":-1.79},{\"duration\":0}]},{\"name\":\"chest\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":0.19,\"y\":-0.74},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.25,\"y\":-0.83},{\"duration\":35,\"tweenEasing\":0,\"x\":0.19,\"y\":-0.74},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"rotate\":-0.17},{\"duration\":5,\"tweenEasing\":0,\"rotate\":-0.02},{\"duration\":35,\"tweenEasing\":0,\"rotate\":-0.17},{\"duration\":0}]},{\"name\":\"pelvis\",\"translateFrame\":[{\"duration\":40,\"tweenEasing\":0},{\"duration\":40,\"tweenEasing\":0,\"y\":-4.1},{\"duration\":0}],\"rotateFrame\":[{\"duration\":40,\"tweenEasing\":0},{\"duration\":40,\"tweenEasing\":0,\"rotate\":0.75},{\"duration\":0}]},{\"name\":\"thigh_l\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":1.1,\"y\":0.37},{\"duration\":5,\"tweenEasing\":0,\"x\":0.9,\"y\":0.16},{\"duration\":35,\"tweenEasing\":0,\"x\":1.1,\"y\":0.37},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"rotate\":-1.5},{\"duration\":5,\"tweenEasing\":0,\"rotate\":-1.75},{\"duration\":35,\"tweenEasing\":0,\"rotate\":-1.5},{\"duration\":0}],\"scaleFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":10,\"tweenEasing\":0,\"x\":1.08},{\"duration\":35,\"tweenEasing\":0,\"x\":1.08},{\"duration\":0}]},{\"name\":\"calf_l\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.76,\"y\":0.24},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.75,\"y\":0.21},{\"duration\":35,\"tweenEasing\":0,\"x\":-0.76,\"y\":0.24},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":10,\"tweenEasing\":0,\"rotate\":0.4},{\"duration\":35,\"tweenEasing\":0,\"rotate\":0.4},{\"duration\":0}]},{\"name\":\"foot_l\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":10,\"tweenEasing\":0,\"x\":0.16,\"y\":0.09},{\"duration\":35,\"tweenEasing\":0,\"x\":0.16,\"y\":0.09},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":10,\"tweenEasing\":0,\"rotate\":0.25},{\"duration\":35,\"tweenEasing\":0,\"rotate\":0.25},{\"duration\":0}]},{\"name\":\"hand_l\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.32,\"y\":-0.13},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.31,\"y\":-0.21},{\"duration\":35,\"tweenEasing\":0,\"x\":-0.36,\"y\":-0.17},{\"duration\":0}]},{\"name\":\"weapon_hand_l\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":0.01,\"y\":0.02},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.03,\"y\":-0.01},{\"duration\":35,\"tweenEasing\":0,\"x\":-0.01,\"y\":0.01},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"rotate\":1.76},{\"duration\":5,\"tweenEasing\":0,\"rotate\":1.75},{\"duration\":35,\"tweenEasing\":0,\"rotate\":1.76},{\"duration\":0}]},{\"name\":\"shouder_l\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":2,\"y\":-7.75},{\"duration\":5,\"tweenEasing\":0,\"x\":2.15,\"y\":-8.1},{\"duration\":35,\"tweenEasing\":0,\"x\":1.95,\"y\":-8.15},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":10,\"tweenEasing\":0,\"rotate\":-0.75},{\"duration\":35,\"tweenEasing\":0,\"rotate\":-0.75},{\"duration\":0}]},{\"name\":\"forearm_l\",\"translateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.33,\"y\":-0.12},{\"duration\":5,\"tweenEasing\":0,\"x\":-0.35,\"y\":-0.12},{\"duration\":35,\"tweenEasing\":0,\"x\":-0.31,\"y\":-0.13},{\"duration\":0}],\"rotateFrame\":[{\"duration\":35,\"tweenEasing\":0},{\"duration\":10,\"tweenEasing\":0,\"rotate\":0.75},{\"duration\":35,\"tweenEasing\":0,\"rotate\":0.75},{\"duration\":0}]}],\"slot\":[{\"name\":\"weapon_hand_l\",\"displayFrame\":[{\"duration\":80}]}]}],\"defaultActions\":[{\"gotoAndPlay\":\"idle\"}]}]}"
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_btn_pressed",
+      "texture": "b4P/PCArtIdIH38t6mlw8Y",
+      "rect": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        40
+      ],
+      "capInsets": [
+        12,
+        12,
+        12,
+        12
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_btn_normal",
+      "texture": "e8Ueib+qJEhL6mXAHdnwbi",
+      "rect": [
+        0,
+        0,
+        40,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        40,
+        40
+      ],
+      "capInsets": [
+        12,
+        12,
+        12,
+        12
+      ]
+    }
+  }
+]

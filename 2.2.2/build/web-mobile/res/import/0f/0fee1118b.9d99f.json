@@ -1,0 +1,331 @@
+[
+  [
+    {
+      "__type__": "cc.SceneAsset",
+      "_name": "ShieldNode",
+      "scene": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": null
+    },
+    {
+      "__type__": "cc.Scene",
+      "_name": "New Node",
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ],
+      "_active": false,
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "autoReleaseAssets": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Canvas",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Canvas",
+          "node": {
+            "__id__": 2
+          }
+        },
+        {
+          "__type__": "11d749OX3BDRqOfPVpy+u7u",
+          "node": {
+            "__id__": 2
+          },
+          "tiledLayer": {
+            "__id__": 6
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 640
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          480,
+          320,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_id": "f00By4HYhNW6IA9fVFUEc3"
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Main Camera",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Camera",
+          "node": {
+            "__id__": 3
+          },
+          "_clearFlags": 7,
+          "_depth": -1
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          252.01339721679688,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "New TiledMap",
+      "_parent": {
+        "__id__": 2
+      },
+      "_children": [
+        {
+          "__id__": 5
+        },
+        {
+          "__id__": 7
+        },
+        {
+          "__id__": 8
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.TiledMap",
+          "node": {
+            "__id__": 4
+          },
+          "_tmxFile": {
+            "__uuid__": "d0BQ/hBJdMnJ43yoc0PrbS"
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 992,
+        "height": 992
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Walls",
+      "_parent": {
+        "__id__": 4
+      },
+      "_components": [
+        {
+          "__id__": 6
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 992,
+        "height": 992
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.TiledLayer",
+      "node": {
+        "__id__": 5
+      },
+      "_materials": [
+        {
+          "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+        }
+      ]
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Walls level 2",
+      "_parent": {
+        "__id__": 4
+      },
+      "_components": [
+        {
+          "__type__": "cc.TiledLayer",
+          "node": {
+            "__id__": 7
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ]
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 992,
+        "height": 992
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Walls level 3",
+      "_parent": {
+        "__id__": 4
+      },
+      "_components": [
+        {
+          "__type__": "cc.TiledLayer",
+          "node": {
+            "__id__": 8
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ]
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 992,
+        "height": 992
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  {
+    "__type__": "cc.TiledMapAsset",
+    "_name": "perspective_walls",
+    "tmxXmlStr": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<map version=\"1.0\" orientation=\"orthogonal\" width=\"32\" height=\"32\" tilewidth=\"31\" tileheight=\"31\">\r\n <tileset firstgid=\"1\" source=\"perspective_walls.tsx\"/>\r\n <layer name=\"Walls\" width=\"32\" height=\"32\">\r\n  <data encoding=\"base64\" compression=\"zlib\">\r\n   eJztlOkKgCAQhLfb7vd/24SUBqMMNevHfDB4LczusihCCCHkTzRay4XaDP7rxf1882ZpzBqTp/Wo4c7ulRy96LUKRx3EFYF5+GpESpA9V845pT/Oxijn+luIw36k8vf1Rpk1xPepx9vczV+O3GL6n4JJ9vkSOf8/Qwb/r+vHP8ZVzFwTQshf2AA5owLB\r\n  </data>\r\n </layer>\r\n <layer name=\"Walls level 2\" width=\"32\" height=\"32\">\r\n  <data encoding=\"base64\" compression=\"zlib\">\r\n   eJztzgEJAAAIA7CD/Tsb4yJbgiUA8MO0AwAAhy0rhAAE\r\n  </data>\r\n </layer>\r\n <layer name=\"Walls level 3\" width=\"32\" height=\"32\">\r\n  <data encoding=\"base64\" compression=\"zlib\">\r\n   eJztzjENAAAIA7Al+PeMgz0cPK2CJgBwN98BAACqBS0QAAQ=\r\n  </data>\r\n </layer>\r\n</map>\r\n",
+    "textures": [
+      {
+        "__uuid__": "057JjW/apFoLvaYuCUImuB"
+      }
+    ],
+    "textureNames": [
+      "perspective_walls.png"
+    ],
+    "tsxFiles": [
+      {
+        "__uuid__": "fcw5TIwEpP+YA3i9DBGb5f"
+      }
+    ],
+    "tsxFileNames": [
+      "perspective_walls.tsx"
+    ]
+  },
+  {
+    "__type__": "cc.TextAsset",
+    "_name": "perspective_walls",
+    "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<tileset name=\"perspective_walls\" tilewidth=\"64\" tileheight=\"64\">\r\n <tileoffset x=\"-32\" y=\"0\"/>\r\n <image source=\"perspective_walls.png\"/>\r\n <tile id=\"13\">\r\n  <properties>\r\n   <property name=\"door\" value=\"true\"/>\r\n  </properties>\r\n </tile>\r\n <tile id=\"14\">\r\n  <properties>\r\n   <property name=\"door\" value=\"true\"/>\r\n  </properties>\r\n </tile>\r\n <tile id=\"15\">\r\n  <properties>\r\n   <property name=\"pickup\" value=\"true\"/>\r\n  </properties>\r\n </tile>\r\n</tileset>\r\n"
+  }
+]
