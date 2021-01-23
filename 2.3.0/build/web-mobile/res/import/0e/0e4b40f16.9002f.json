@@ -1,0 +1,2505 @@
+[
+  [
+    {
+      "__type__": "cc.SceneAsset",
+      "_name": "DragonBonesCollider",
+      "scene": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": null
+    },
+    {
+      "__type__": "cc.Scene",
+      "_name": "New Node",
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ],
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "autoReleaseAssets": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Canvas",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        },
+        {
+          "__id__": 49
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Canvas",
+          "node": {
+            "__id__": 2
+          }
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 2
+          },
+          "_alignFlags": 45
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 640
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          480,
+          320,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_id": "a5esZu+45LA5mBpvttspPD"
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Main Camera",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Camera",
+          "node": {
+            "__id__": 3
+          },
+          "_clearFlags": 7,
+          "_depth": -1
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 3
+          },
+          "_alignFlags": 45
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 640
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "DragonbonesNode",
+      "_parent": {
+        "__id__": 2
+      },
+      "_children": [
+        {
+          "__id__": 5
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "dragonBones.ArmatureDisplay",
+          "node": {
+            "__id__": 4
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_armatureName": "Swordsman-NestArmature",
+          "_animationName": "walk",
+          "_preCacheMode": 0,
+          "_armatureKey": "63626a22-bdb3-4914-8032-4945b3486a5f#6684b89f-54ee-4c2f-8ca0-4481f35f9d37",
+          "_N$dragonAsset": {
+            "__uuid__": "63YmoivbNJFIAySUWzSGpf"
+          },
+          "_N$dragonAtlasAsset": {
+            "__uuid__": "66hLifVO5ML4ygRIHzX503"
+          },
+          "_N$timeScale": 0.5
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          -119.331,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0.6,
+          0.6,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE_TREE",
+      "_parent": {
+        "__id__": 4
+      },
+      "_children": [
+        {
+          "__id__": 6
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:root",
+      "_parent": {
+        "__id__": 5
+      },
+      "_children": [
+        {
+          "__id__": 7
+        },
+        {
+          "__id__": 47
+        },
+        {
+          "__id__": 48
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:effectdaoguang2",
+          "_parent": {
+            "__id__": 6
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:effect1",
+          "_parent": {
+            "__id__": 6
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:effectdaoguang",
+          "_parent": {
+            "__id__": 6
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:effect2",
+          "_parent": {
+            "__id__": 6
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:effect3",
+          "_parent": {
+            "__id__": 6
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:kudang",
+      "_parent": {
+        "__id__": 6
+      },
+      "_children": [
+        {
+          "__id__": 8
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:kuabu",
+          "_parent": {
+            "__id__": 7
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__id__": 15
+        },
+        {
+          "__id__": 39
+        },
+        {
+          "__id__": 40
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:zuotui1",
+      "_parent": {
+        "__id__": 7
+      },
+      "_children": [
+        {
+          "__id__": 9
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:zuojiao1",
+      "_parent": {
+        "__id__": 8
+      },
+      "_children": [
+        {
+          "__id__": 10
+        },
+        {
+          "__id__": 14
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:zuoxie21",
+      "_parent": {
+        "__id__": 9
+      },
+      "_children": [
+        {
+          "__id__": 11
+        },
+        {
+          "__id__": 13
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:zuoxie2",
+      "_parent": {
+        "__id__": 10
+      },
+      "_children": [
+        {
+          "__id__": 12
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "zuoxie-collider",
+      "_parent": {
+        "__id__": 11
+      },
+      "_components": [
+        {
+          "__type__": "cc.PolygonCollider",
+          "node": {
+            "__id__": 12
+          },
+          "points": [
+            {
+              "__type__": "cc.Vec2",
+              "x": -14.7,
+              "y": -11.4
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 54.7,
+              "y": -10.4
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 52.9,
+              "y": 20
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -14.7,
+              "y": 19
+            }
+          ]
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 6,
+      "groupIndex": 6
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "zuoxie-collider",
+      "_parent": {
+        "__id__": 10
+      },
+      "_components": [
+        {
+          "__type__": "cc.PolygonCollider",
+          "node": {
+            "__id__": 13
+          },
+          "points": [
+            {
+              "__type__": "cc.Vec2",
+              "x": -25.8,
+              "y": -35.4
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 59.3,
+              "y": -4.1
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 39.4,
+              "y": 47.9
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -45.8,
+              "y": 15.2
+            }
+          ]
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:huo1",
+      "_parent": {
+        "__id__": 9
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:fiii1",
+          "_parent": {
+            "__id__": 14
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:fubu",
+      "_parent": {
+        "__id__": 7
+      },
+      "_children": [
+        {
+          "__id__": 16
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:xiong",
+      "_parent": {
+        "__id__": 15
+      },
+      "_children": [
+        {
+          "__id__": 17
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:youjianjia1",
+          "_parent": {
+            "__id__": 16
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__id__": 27
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:jian",
+          "_parent": {
+            "__id__": 16
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__id__": 30
+        },
+        {
+          "__id__": 37
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:zuojian2",
+          "_parent": {
+            "__id__": 16
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:youbi",
+      "_parent": {
+        "__id__": 16
+      },
+      "_children": [
+        {
+          "__id__": 18
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:youwang",
+      "_parent": {
+        "__id__": 17
+      },
+      "_children": [
+        {
+          "__id__": 19
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:youzhang",
+      "_parent": {
+        "__id__": 18
+      },
+      "_children": [
+        {
+          "__id__": 20
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:R-JIAN1",
+      "_parent": {
+        "__id__": 19
+      },
+      "_children": [
+        {
+          "__id__": 21
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:root",
+      "_parent": {
+        "__id__": 20
+      },
+      "_children": [
+        {
+          "__id__": 22
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:bone",
+      "_parent": {
+        "__id__": 21
+      },
+      "_children": [
+        {
+          "__id__": 23
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:daobing3",
+      "_parent": {
+        "__id__": 22
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:daobing1",
+          "_parent": {
+            "__id__": 23
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__id__": 24
+        },
+        {
+          "__id__": 25
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:dao",
+          "_parent": {
+            "__id__": 23
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__id__": 26
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:xx5",
+          "_parent": {
+            "__id__": 23
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:xx4",
+          "_parent": {
+            "__id__": 23
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:dapbing2",
+          "_parent": {
+            "__id__": 23
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:xx2",
+      "_parent": {
+        "__id__": 23
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:xx1",
+          "_parent": {
+            "__id__": 24
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:xx3",
+      "_parent": {
+        "__id__": 23
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:dao1",
+          "_parent": {
+            "__id__": 25
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:xx21",
+      "_parent": {
+        "__id__": 23
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:xx11",
+          "_parent": {
+            "__id__": 26
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:fasheqi",
+      "_parent": {
+        "__id__": 16
+      },
+      "_children": [
+        {
+          "__id__": 28
+        },
+        {
+          "__id__": 29
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:huo12",
+      "_parent": {
+        "__id__": 27
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:fiii12",
+          "_parent": {
+            "__id__": 28
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:huo2",
+      "_parent": {
+        "__id__": 27
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:fiii13",
+          "_parent": {
+            "__id__": 29
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:zuobi2",
+      "_parent": {
+        "__id__": 16
+      },
+      "_children": [
+        {
+          "__id__": 31
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:zuowang2",
+      "_parent": {
+        "__id__": 30
+      },
+      "_children": [
+        {
+          "__id__": 32
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:zuozhang2",
+      "_parent": {
+        "__id__": 31
+      },
+      "_children": [
+        {
+          "__id__": 33
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:daobing31",
+      "_parent": {
+        "__id__": 32
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:daobing11",
+          "_parent": {
+            "__id__": 33
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:dapbing21",
+          "_parent": {
+            "__id__": 33
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:dao2",
+          "_parent": {
+            "__id__": 33
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__id__": 34
+        },
+        {
+          "__id__": 35
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:xx41",
+          "_parent": {
+            "__id__": 33
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__id__": 36
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:xx51",
+          "_parent": {
+            "__id__": 33
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:eedaoguang2",
+          "_parent": {
+            "__id__": 33
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:xx22",
+      "_parent": {
+        "__id__": 33
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:xx12",
+          "_parent": {
+            "__id__": 34
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:xx31",
+      "_parent": {
+        "__id__": 33
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:dao11",
+          "_parent": {
+            "__id__": 35
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:xx23",
+      "_parent": {
+        "__id__": 33
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:xx13",
+          "_parent": {
+            "__id__": 36
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:bozi",
+      "_parent": {
+        "__id__": 16
+      },
+      "_children": [
+        {
+          "__id__": 38
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:boli",
+      "_parent": {
+        "__id__": 37
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:gaoguang",
+          "_parent": {
+            "__id__": 38
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:feng",
+      "_parent": {
+        "__id__": 7
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:feng2",
+          "_parent": {
+            "__id__": 39
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:feng1",
+          "_parent": {
+            "__id__": 39
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:youtui2",
+      "_parent": {
+        "__id__": 7
+      },
+      "_children": [
+        {
+          "__id__": 41
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:youjiao2",
+      "_parent": {
+        "__id__": 40
+      },
+      "_children": [
+        {
+          "__id__": 42
+        },
+        {
+          "__id__": 43
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:huo11",
+      "_parent": {
+        "__id__": 41
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:fiii11",
+          "_parent": {
+            "__id__": 42
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:youxie21",
+      "_parent": {
+        "__id__": 41
+      },
+      "_children": [
+        {
+          "__id__": 44
+        },
+        {
+          "__id__": 46
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:youxie2",
+      "_parent": {
+        "__id__": 43
+      },
+      "_children": [
+        {
+          "__id__": 45
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "youxue-collider",
+      "_parent": {
+        "__id__": 44
+      },
+      "_components": [
+        {
+          "__type__": "cc.PolygonCollider",
+          "node": {
+            "__id__": 45
+          },
+          "points": [
+            {
+              "__type__": "cc.Vec2",
+              "x": -9.9,
+              "y": -11
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 60.8,
+              "y": -15.2
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 63.4,
+              "y": 22.6
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -7.7,
+              "y": 29.5
+            }
+          ]
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 6,
+      "groupIndex": 6
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "youxue-collider",
+      "_parent": {
+        "__id__": 43
+      },
+      "_components": [
+        {
+          "__type__": "cc.PolygonCollider",
+          "node": {
+            "__id__": 46
+          },
+          "points": [
+            {
+              "__type__": "cc.Vec2",
+              "x": -12.7,
+              "y": -57.4
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 62.4,
+              "y": -2.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": 21.8,
+              "y": 50.5
+            },
+            {
+              "__type__": "cc.Vec2",
+              "x": -50.4,
+              "y": -5.7
+            }
+          ]
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 6,
+      "groupIndex": 6
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:zuoxie211",
+      "_parent": {
+        "__id__": 6
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:zuoxie22",
+          "_parent": {
+            "__id__": 47
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:zuojiao11",
+          "_parent": {
+            "__id__": 47
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ATTACHED_NODE:youxie211",
+      "_parent": {
+        "__id__": 6
+      },
+      "_children": [
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:youxie22",
+          "_parent": {
+            "__id__": 48
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "__type__": "cc.Node",
+          "_name": "ATTACHED_NODE:youjiao21",
+          "_parent": {
+            "__id__": 48
+          },
+          "_trs": {
+            "__type__": "TypedArray",
+            "ctor": "Float64Array",
+            "array": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "platform",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 49
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "a2MjXRFdtLlYQ5ouAFv/+R"
+          },
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.BoxCollider",
+          "node": {
+            "__id__": 49
+          },
+          "_size": {
+            "__type__": "cc.Size",
+            "width": 857,
+            "height": 50
+          }
+        },
+        {
+          "__type__": "bc72dk4AitNwKGh/9zb4UjM",
+          "node": {
+            "__id__": 49
+          }
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 49
+          },
+          "_alignFlags": 16
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 857,
+        "height": 50
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          -144.357,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 3,
+      "groupIndex": 3
+    }
+  ],
+  {
+    "__type__": "dragonBones.DragonBonesAsset",
+    "_name": "SwordsMan_ske",
+    "_native": ".dbbin"
+  },
+  {
+    "__type__": "dragonBones.DragonBonesAtlasAsset",
+    "_name": "SwordsMan_tex",
+    "_atlasJson": "{\"SubTexture\":[{\"x\":273,\"y\":424,\"width\":271,\"name\":\"qqqqq\",\"height\":76},{\"frameY\":0,\"y\":975,\"frameX\":0,\"frameHeight\":15,\"height\":15,\"frameWidth\":278,\"width\":277,\"name\":\"effect4\",\"x\":1},{\"frameY\":0,\"y\":641,\"frameX\":-1,\"frameHeight\":45,\"height\":45,\"frameWidth\":264,\"width\":263,\"name\":\"effect3\",\"x\":640},{\"frameY\":0,\"y\":586,\"frameX\":0,\"frameHeight\":76,\"height\":76,\"frameWidth\":201,\"width\":200,\"name\":\"effect1\",\"x\":220},{\"x\":1,\"y\":963,\"width\":215,\"name\":\"effect5\",\"height\":10},{\"frameY\":0,\"y\":618,\"frameX\":-1,\"frameHeight\":72,\"height\":72,\"frameWidth\":188,\"width\":186,\"name\":\"effect2\",\"x\":1},{\"x\":1,\"y\":1,\"width\":367,\"name\":\"feng1\",\"height\":263},{\"x\":939,\"y\":179,\"width\":81,\"name\":\"huo2\",\"height\":79},{\"x\":454,\"y\":701,\"width\":71,\"name\":\"huo1\",\"height\":119},{\"x\":955,\"y\":681,\"width\":37,\"name\":\"fii2\",\"height\":90},{\"x\":49,\"y\":844,\"width\":39,\"name\":\"fii3\",\"height\":95},{\"x\":90,\"y\":844,\"width\":39,\"name\":\"fiii1\",\"height\":90},{\"x\":737,\"y\":1,\"width\":201,\"name\":\"fasheqi\",\"height\":176},{\"x\":234,\"y\":919,\"width\":95,\"name\":\"zuowangx1\",\"height\":54},{\"x\":385,\"y\":924,\"width\":52,\"name\":\"zuozhangx2\",\"height\":52},{\"x\":910,\"y\":357,\"width\":75,\"name\":\"zuojian2\",\"height\":87},{\"x\":372,\"y\":830,\"width\":102,\"name\":\"zuobi2\",\"height\":92},{\"x\":204,\"y\":923,\"width\":25,\"name\":\"kuabu2\",\"height\":31},{\"x\":152,\"y\":796,\"width\":93,\"name\":\"zuoxie21\",\"height\":57},{\"x\":372,\"y\":664,\"width\":66,\"name\":\"zuoxie2\",\"height\":34},{\"x\":273,\"y\":266,\"width\":92,\"name\":\"zuojiao1\",\"height\":128},{\"x\":90,\"y\":936,\"width\":18,\"name\":\"guang12_1\",\"height\":22},{\"x\":1002,\"y\":521,\"width\":17,\"name\":\"guang11\",\"height\":59},{\"x\":811,\"y\":524,\"width\":85,\"name\":\"zuotui1\",\"height\":109},{\"x\":1,\"y\":772,\"width\":46,\"name\":\"guang10\",\"height\":86},{\"x\":546,\"y\":438,\"width\":136,\"name\":\"fubu\",\"height\":132},{\"x\":234,\"y\":855,\"width\":83,\"name\":\"kudang\",\"height\":62},{\"x\":898,\"y\":524,\"width\":102,\"name\":\"youxie21\",\"height\":63},{\"x\":131,\"y\":923,\"width\":71,\"name\":\"youxie2\",\"height\":38},{\"x\":536,\"y\":572,\"width\":102,\"name\":\"youjiao2\",\"height\":129},{\"x\":994,\"y\":681,\"width\":25,\"name\":\"guang8\",\"height\":71},{\"x\":986,\"y\":153,\"width\":20,\"name\":\"guang9\",\"height\":24},{\"x\":189,\"y\":664,\"width\":97,\"name\":\"youtui2\",\"height\":130},{\"x\":154,\"y\":692,\"width\":32,\"name\":\"guang7\",\"height\":78},{\"x\":189,\"y\":618,\"width\":27,\"name\":\"guang6\",\"height\":40},{\"x\":247,\"y\":804,\"width\":74,\"name\":\"lingzi\",\"height\":40},{\"x\":152,\"y\":855,\"width\":80,\"name\":\"bozi\",\"height\":66},{\"x\":1,\"y\":992,\"width\":59,\"name\":\"guang3\",\"height\":29},{\"x\":370,\"y\":265,\"width\":182,\"name\":\"xiong\",\"height\":157},{\"x\":77,\"y\":692,\"width\":75,\"name\":\"guang2\",\"height\":74},{\"x\":385,\"y\":978,\"width\":34,\"name\":\"guang1\",\"height\":36},{\"x\":811,\"y\":455,\"width\":138,\"name\":\"kuabu\",\"height\":67},{\"x\":737,\"y\":179,\"width\":200,\"name\":\"boli\",\"height\":176},{\"x\":940,\"y\":132,\"width\":44,\"name\":\"gaoguang\",\"height\":43},{\"x\":554,\"y\":265,\"width\":159,\"name\":\"eji\",\"height\":171},{\"x\":1,\"y\":692,\"width\":74,\"name\":\"jian\",\"height\":78},{\"x\":280,\"y\":975,\"width\":33,\"name\":\"dapbing2\",\"height\":35},{\"x\":63,\"y\":941,\"width\":25,\"name\":\"daobing3\",\"height\":11},{\"x\":684,\"y\":438,\"width\":16,\"name\":\"daobing1\",\"height\":125},{\"frameY\":0,\"y\":1,\"frameX\":-28,\"frameHeight\":129,\"height\":129,\"frameWidth\":94,\"width\":49,\"name\":\"dao22\",\"x\":940},{\"x\":715,\"y\":357,\"width\":94,\"name\":\"dao\",\"height\":282},{\"x\":991,\"y\":1,\"width\":20,\"name\":\"xx2\",\"height\":150},{\"x\":152,\"y\":772,\"width\":20,\"name\":\"xx1\",\"height\":21},{\"x\":987,\"y\":357,\"width\":29,\"name\":\"xx3\",\"height\":86},{\"x\":905,\"y\":589,\"width\":48,\"name\":\"xx4\",\"height\":129},{\"x\":131,\"y\":844,\"width\":19,\"name\":\"xx5\",\"height\":45},{\"x\":331,\"y\":804,\"width\":35,\"name\":\"dao1\",\"height\":126},{\"x\":439,\"y\":924,\"width\":48,\"name\":\"zuozhangx1\",\"height\":56},{\"x\":1,\"y\":860,\"width\":38,\"name\":\"guangx1\",\"height\":96},{\"x\":315,\"y\":975,\"width\":11,\"name\":\"guangx2\",\"height\":28},{\"x\":702,\"y\":438,\"width\":11,\"name\":\"guangx3\",\"height\":139},{\"x\":288,\"y\":664,\"width\":82,\"name\":\"youbi\",\"height\":138},{\"x\":131,\"y\":891,\"width\":19,\"name\":\"guang13\",\"height\":23},{\"x\":951,\"y\":446,\"width\":68,\"name\":\"youzhang\",\"height\":73},{\"x\":331,\"y\":932,\"width\":52,\"name\":\"zuozhang1\",\"height\":59},{\"x\":372,\"y\":701,\"width\":80,\"name\":\"zuozhang2\",\"height\":127},{\"x\":77,\"y\":768,\"width\":73,\"name\":\"zuowang2\",\"height\":74},{\"x\":41,\"y\":941,\"width\":20,\"name\":\"guang12\",\"height\":18},{\"x\":939,\"y\":260,\"width\":64,\"name\":\"youwang\",\"height\":95},{\"x\":174,\"y\":772,\"width\":13,\"name\":\"guang14\",\"height\":22},{\"x\":811,\"y\":357,\"width\":97,\"name\":\"youjianjia\",\"height\":96},{\"x\":640,\"y\":572,\"width\":59,\"name\":\"jianjianxx\",\"height\":58},{\"x\":955,\"y\":589,\"width\":63,\"name\":\"zuowang1\",\"height\":90},{\"frameY\":-1,\"y\":1,\"frameX\":-3,\"frameHeight\":263,\"height\":262,\"frameWidth\":368,\"width\":365,\"name\":\"feng2\",\"x\":370},{\"frameY\":-1,\"y\":445,\"frameX\":-58,\"frameHeight\":100,\"height\":86,\"frameWidth\":275,\"width\":217,\"name\":\"effectdaoguang0002\",\"x\":1},{\"frameY\":-5,\"y\":266,\"frameX\":-28,\"frameHeight\":100,\"height\":94,\"frameWidth\":275,\"width\":244,\"name\":\"effectdaoguang0004\",\"x\":1},{\"frameY\":-1,\"y\":502,\"frameX\":-47,\"frameHeight\":100,\"height\":82,\"frameWidth\":275,\"width\":226,\"name\":\"effectdaoguang0001\",\"x\":220},{\"frameY\":-4,\"y\":533,\"frameX\":-58,\"frameHeight\":100,\"height\":83,\"frameWidth\":275,\"width\":217,\"name\":\"effectdaoguang0003\",\"x\":1},{\"frameY\":-16,\"y\":362,\"frameX\":-2,\"frameHeight\":100,\"height\":81,\"frameWidth\":275,\"width\":270,\"name\":\"effectdaoguang0005\",\"x\":1},{\"frameY\":0,\"y\":502,\"frameX\":-4,\"frameHeight\":197,\"height\":197,\"frameWidth\":90,\"width\":86,\"name\":\"effect11\",\"x\":448}],\"imagePath\":\"SwordsMan_tex.png\",\"width\":1024,\"name\":\"SwordsMan\",\"height\":1024}",
+    "_texture": {
+      "__uuid__": "40nIDC6VdPI5r13bNiNFzk"
+    },
+    "texture": {
+      "__uuid__": "40nIDC6VdPI5r13bNiNFzk"
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_sprite_splash",
+      "texture": "02delMVqdBD70a/HSD99FK",
+      "rect": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        2,
+        2
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]
