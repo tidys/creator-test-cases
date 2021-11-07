@@ -5,14 +5,31 @@
     <title>Creator各个版本的DEMO</title>
     <link rel="stylesheet" href="lib/com.css">
     <script src="lib/vue.js"></script>
+    <style>
+        .box {
+            border: 1px solid #666666;
+            padding: 1px;
+        }
+
+        a {
+            margin: 1px;
+            background: #dedede;
+        }
+    </style>
 </head>
 <body>
-<div id="app" class="fit">
-    <span>Cocos Creator版本DEMO</span>
-    <a href="./2.2.2/build/web-mobile/index.html">V2.2.2</a>
-    <a href="./2.3.0/build/web-mobile/index.html">V2.3.0</a>
-    <a href="./2.4.0/build/web-mobile/index.html">V2.4.0</a>
-
+<div id="app" class="fit" style="display: flex;flex-direction: row;">
+    <div style="display: flex;flex-direction: column; flex:1;" class="box">
+        <span>Cocos Creator版本TestCase</span>
+        <a href="./2.2.2/build/web-mobile/index.html">V2.2.2</a>
+        <a href="./2.3.0/build/web-mobile/index.html">V2.3.0</a>
+        <a href="./2.4.0/build/web-mobile/index.html">V2.4.0</a>
+        <a href="./2.4.6/build/web-mobile/index.html">V2.4.6</a>
+    </div>
+    <div style="display: flex;flex-direction: column;flex:1;" class="box">
+        ChromeInspectorTest测试例
+        <a href="./chrome-inspector-test-2.4.6/index.html">V2.4.6</a>
+    </div>
     <div v-for="(version,index) in versions" v-show="false">
         {{version}}
     </div>

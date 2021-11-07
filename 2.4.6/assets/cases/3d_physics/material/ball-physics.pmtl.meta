@@ -1,0 +1,8 @@
+{
+  "ver": "1.0.2",
+  "uuid": "de214e55-6196-4301-97ca-1bd06cdb0c78",
+  "importer": "physics-material",
+  "friction": 0,
+  "restitution": 0.5,
+  "subMetas": {}
+}
