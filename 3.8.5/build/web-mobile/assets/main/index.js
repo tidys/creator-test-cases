@@ -962,6 +962,44 @@ System.register("chunks:///_virtual/HomeUI.ts", ['./rollupPluginModLoBabelHelper
   };
 });
 
+System.register("chunks:///_virtual/ins.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
+  var _inheritsLoose, cclegacy, _decorator, Node, Component;
+  return {
+    setters: [function (module) {
+      _inheritsLoose = module.inheritsLoose;
+    }, function (module) {
+      cclegacy = module.cclegacy;
+      _decorator = module._decorator;
+      Node = module.Node;
+      Component = module.Component;
+    }],
+    execute: function () {
+      var _dec, _class;
+      cclegacy._RF.push({}, "84825LBxsxI6JuV/J/eOBma", "ins", undefined);
+      var ccclass = _decorator.ccclass,
+        property = _decorator.property;
+      var ins = exports('ins', (_dec = ccclass("ins"), _dec(_class = /*#__PURE__*/function (_Component) {
+        _inheritsLoose(ins, _Component);
+        function ins() {
+          return _Component.apply(this, arguments) || this;
+        }
+        var _proto = ins.prototype;
+        _proto.start = function start() {
+          this.node.on(Node.EventType.TOUCH_START, function () {
+            console.log("click 1");
+          });
+          this.node.on(Node.EventType.TOUCH_START, function () {
+            console.log("click 2");
+          });
+        };
+        _proto.update = function update(deltaTime) {};
+        return ins;
+      }(Component)) || _class));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
 System.register("chunks:///_virtual/ItemList.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
   var _applyDecoratedDescriptor, _initializerDefineProperty, _inheritsLoose, _assertThisInitialized, cclegacy, _decorator, SpriteFrame, Prefab, instantiate, Component;
   return {
@@ -1202,9 +1240,9 @@ System.register("chunks:///_virtual/ListItem.ts", ['./rollupPluginModLoBabelHelp
   };
 });
 
-System.register("chunks:///_virtual/main", ['./migrate-canvas.ts', './AdapterContent.ts', './BackPackUI.ts', './ButtonScaler.ts', './ChallengeUI.ts', './ChargeUI.ts', './EnergyCounter.ts', './HeroSlot.ts', './HomeUI.ts', './ItemList.ts', './ItemTemplate.ts', './PanelTransition.ts', './PanelType.ts', './ShopUI.ts', './SubBtnsUI.ts', './head-scale.ts', './rockerCtrl.ts', './MainMenu.ts', './MenuSidebar.ts', './TabCtrl.ts', './BackButton.ts', './ListItem.ts', './SceneList.ts'], function () {
+System.register("chunks:///_virtual/main", ['./migrate-canvas.ts', './ins.ts', './AdapterContent.ts', './BackPackUI.ts', './ButtonScaler.ts', './ChallengeUI.ts', './ChargeUI.ts', './EnergyCounter.ts', './HeroSlot.ts', './HomeUI.ts', './ItemList.ts', './ItemTemplate.ts', './PanelTransition.ts', './PanelType.ts', './ShopUI.ts', './SubBtnsUI.ts', './head-scale.ts', './rockerCtrl.ts', './MainMenu.ts', './MenuSidebar.ts', './TabCtrl.ts', './BackButton.ts', './ListItem.ts', './SceneList.ts'], function () {
   return {
-    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     execute: function () {}
   };
 });
