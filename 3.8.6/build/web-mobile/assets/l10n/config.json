@@ -1,0 +1,33 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "l10n",
+    "deps": [],
+    "uuids": [
+        "d2f18e87-d231-4e20-9e54-06a7aa2bd5c1",
+        "fa0fa81e-eaf8-4eb4-8a48-181676ceff01"
+    ],
+    "paths": {
+        "fa0fa81e-eaf8-4eb4-8a48-181676ceff01": [
+            "resource-bundle",
+            "cc.JsonAsset",
+            1
+        ],
+        "d2f18e87-d231-4e20-9e54-06a7aa2bd5c1": [
+            "resource-list",
+            "cc.JsonAsset",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {},
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}

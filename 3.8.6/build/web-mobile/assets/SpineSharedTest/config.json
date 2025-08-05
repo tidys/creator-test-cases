@@ -1,0 +1,113 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "SpineSharedTest",
+    "deps": [
+        "main",
+        "resources"
+    ],
+    "uuids": [
+        "01301e1e-e105-4ed9-aab0-1641fb0e8097",
+        "0bfbb9db4",
+        "0d52567eb",
+        "0e6c15199",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "42569b4b-0fff-40d6-9c5e-9b56262d472c",
+        "42569b4b-0fff-40d6-9c5e-9b56262d472c@6c48a",
+        "467c0891-2dc4-4a63-aaf0-aa25281bc792",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "5d8eb86a-399c-4731-8313-e186e8378d0e",
+        "5d8eb86a-399c-4731-8313-e186e8378d0e@6c48a",
+        "5e824cd1-a4e8-4784-8fcc-a470bf82ddf9",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "7ff378b7-a4e6-476c-a1da-dd0a40febe38",
+        "8cb72fb4-22d1-406a-84b6-92641a00ea0b",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "e6756737-d938-46da-ba61-3ba691eb9b66"
+    ],
+    "paths": {
+        "e6756737-d938-46da-ba61-3ba691eb9b66": [
+            "SharedCacheBundle",
+            "cc.Prefab",
+            1
+        ],
+        "01301e1e-e105-4ed9-aab0-1641fb0e8097": [
+            "SharedCacheBundle_4_2",
+            "cc.Prefab",
+            1
+        ],
+        "5e824cd1-a4e8-4784-8fcc-a470bf82ddf9": [
+            "3.8/spineboy-pro",
+            "cc.Asset",
+            1
+        ],
+        "8cb72fb4-22d1-406a-84b6-92641a00ea0b": [
+            "3.8/spineboy-pro",
+            "sp.SkeletonData",
+            1
+        ],
+        "42569b4b-0fff-40d6-9c5e-9b56262d472c": [
+            "3.8/spineboy-pro",
+            "cc.ImageAsset",
+            1
+        ],
+        "42569b4b-0fff-40d6-9c5e-9b56262d472c@6c48a": [
+            "3.8/spineboy-pro/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "5d8eb86a-399c-4731-8313-e186e8378d0e": [
+            "4.2/spineboy-pma",
+            "cc.ImageAsset",
+            1
+        ],
+        "5d8eb86a-399c-4731-8313-e186e8378d0e@6c48a": [
+            "4.2/spineboy-pma/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "7ff378b7-a4e6-476c-a1da-dd0a40febe38": [
+            "4.2/spineboy-pro",
+            "cc.Asset",
+            1
+        ],
+        "467c0891-2dc4-4a63-aaf0-aa25281bc792": [
+            "4.2/spineboy-pro",
+            "sp.SkeletonData",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {
+        "0bfbb9db4": [
+            "5d8eb86a-399c-4731-8313-e186e8378d0e@6c48a",
+            "42569b4b-0fff-40d6-9c5e-9b56262d472c@6c48a"
+        ],
+        "0e6c15199": [
+            "01301e1e-e105-4ed9-aab0-1641fb0e8097",
+            "467c0891-2dc4-4a63-aaf0-aa25281bc792"
+        ],
+        "0d52567eb": [
+            "8cb72fb4-22d1-406a-84b6-92641a00ea0b",
+            "e6756737-d938-46da-ba61-3ba691eb9b66"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "1",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "1",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "0",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "1"
+    ],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}
